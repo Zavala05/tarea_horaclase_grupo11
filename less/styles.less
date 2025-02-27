@@ -1,0 +1,33 @@
+@colorprimario: #396ec4;
+@colorletras: #000000;
+
+@import "mixins.less";
+@import "colaciones.less";
+
+
+
+.customnavbar{
+    background-color: @colorprimario;
+    color: @colorletras;
+}
+
+.half-inverted-panel {
+    display: flex;
+    .text {
+        width: 50%;
+        padding: 20px;
+        background-color: #f0f0f0;
+        .image {
+            width: 50%;
+          }
+          .image img {
+            width: 100px;
+            height: auto;
+          }
+      }
+  }
+
+
+
+
+
